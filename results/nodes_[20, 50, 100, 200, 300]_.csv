@@ -1,0 +1,55 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['plus-times', 'min-plus', 'max-times', 'max-min'], eval_mode = closure, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 50, 100, 200, 300], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.05, cor = plus, 
+samples = 5000, nodes = 20, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc plus-times is, 0.200, 0.999, 3.200, 0.000, 142.600, 0.120, 0.000, 2.111
+Std plus-times is, 0.400, 0.003, 6.400, 0.000, 3.826, 0.033, 0.000, 0.588
+Acc min-plus is, 2.400, 0.989, 15.200, 0.020, 142.000, 0.182, 0.000, 3.793
+Std min-plus is, 2.728, 0.011, 13.948, 0.040, 5.138, 0.046, 0.000, 0.416
+Acc max-times is, 0.600, 0.996, 6.200, 0.000, 142.200, 0.110, 0.000, 2.226
+Std max-times is, 0.800, 0.006, 7.600, 0.000, 4.261, 0.017, 0.000, 0.386
+Acc max-min is, 0.600, 0.996, 6.200, 0.000, 142.200, 0.188, 0.000, 2.272
+Std max-min is, 0.800, 0.006, 7.600, 0.000, 4.261, 0.028, 0.000, 0.225
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['plus-times', 'min-plus', 'max-times', 'max-min'], eval_mode = closure, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 50, 100, 200, 300], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.05, cor = plus, 
+samples = 5000, nodes = 50, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc plus-times is, 5.800, 0.992, 150.600, 0.000, 693.800, 0.136, 0.000, 3.695
+Std plus-times is, 6.013, 0.008, 182.398, 0.000, 45.446, 0.018, 0.000, 0.366
+Acc min-plus is, 201.000, 0.993, 133.200, 0.391, 892.800, 0.620, 14.400, 8.392
+Std min-plus is, 74.732, 0.001, 26.179, 0.162, 120.916, 0.118, 6.741, 0.714
+Acc max-times is, 2.400, 0.997, 49.800, 0.000, 697.200, 0.109, 0.000, 3.760
+Std max-times is, 4.800, 0.007, 99.600, 0.000, 45.283, 0.009, 0.000, 0.269
+Acc max-min is, 5.400, 0.992, 149.400, 0.000, 694.200, 0.302, 0.000, 3.751
+Std max-min is, 6.681, 0.009, 199.200, 0.000, 45.561, 0.031, 0.000, 0.545
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['plus-times', 'min-plus', 'max-times', 'max-min'], eval_mode = closure, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 50, 100, 200, 300], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.05, cor = plus, 
+samples = 5000, nodes = 100, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc plus-times is, 6.800, 0.997, 34.600, 0.000, 2176.800, 0.144, 0.000, 5.911
+Std plus-times is, 13.600, 0.007, 69.200, 0.000, 133.161, 0.022, 0.000, 0.622
+Acc min-plus is, 1419.400, 0.988, 777.600, 0.506, 3557.000, 0.907, 210.800, 10.697
+Std min-plus is, 97.157, 0.004, 266.745, 0.026, 85.114, 0.015, 72.101, 1.018
+Acc max-times is, 0.000, 1.000, 0.000, 0.000, 2183.600, 0.139, 0.000, 7.349
+Std max-times is, 0.000, 0.000, 0.000, 0.000, 127.569, 0.014, 0.000, 1.289
+Acc max-min is, 15.400, 0.993, 512.800, 0.000, 2168.200, 0.406, 0.000, 7.235
+Std max-min is, 15.226, 0.007, 558.805, 0.000, 129.432, 0.035, 0.000, 0.405
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['plus-times', 'min-plus', 'max-times', 'max-min'], eval_mode = closure, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 50, 100, 200, 300], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.05, cor = plus, 
+samples = 5000, nodes = 200, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc plus-times is, 0.000, 1.000, 0.000, 0.000, 7422.200, 0.140, 0.000, 11.774
+Std plus-times is, 0.000, 0.000, 0.000, 0.000, 452.144, 0.005, 0.000, 1.226
+Acc min-plus is, 5829.600, 0.963, 6439.000, 0.446, 12717.800, 0.963, 1576.600, 18.044
+Std min-plus is, 285.701, 0.007, 1134.463, 0.018, 258.547, 0.006, 205.768, 2.353
+Acc max-times is, 4.400, 0.999, 223.800, 0.000, 7417.800, 0.155, 0.000, 12.305
+Std max-times is, 5.389, 0.001, 382.795, 0.000, 454.928, 0.012, 0.000, 1.366
+Acc max-min is, 307.600, 0.984, 4707.200, 0.015, 7495.800, 0.556, 4.200, 14.499
+Std max-min is, 187.564, 0.011, 2069.285, 0.012, 549.998, 0.022, 2.315, 0.917
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['plus-times', 'min-plus', 'max-times', 'max-min'], eval_mode = closure, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 100, 200, 300, 400, 500], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.05, cor = plus, 
+samples = 5000, nodes = 300, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc plus-times is, 32.400, 0.998, 310.600, 0.000, 14495.200, 0.157, 0.000, 22.770
+Std plus-times is, 60.879, 0.004, 383.235, 0.000, 1065.474, 0.018, 0.000, 2.858
+Acc min-plus is, 14270.200, 0.904, 15967.200, 0.425, 25984.800, 0.973, 2671.400, 23.322
+Std min-plus is, 1029.536, 0.024, 1945.109, 0.036, 1158.950, 0.005, 564.509, 0.784
+Acc max-times is, 59.000, 0.998, 270.200, 0.001, 14509.800, 0.187, 0.800, 31.899
+Std max-times is, 55.868, 0.004, 287.208, 0.001, 1058.601, 0.015, 0.748, 16.081
+Acc max-min is, 1984.800, 0.961, 9979.800, 0.047, 15370.800, 0.699, 41.400, 25.732
+Std max-min is, 75.042, 0.009, 2653.363, 0.003, 833.439, 0.053, 24.245, 3.145

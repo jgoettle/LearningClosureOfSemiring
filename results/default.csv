@@ -1,0 +1,22 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['plus-times', 'min-plus', 'max-times', 'max-min'], eval_mode = closure, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [100], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.05, cor = plus, 
+samples = 5000, nodes = 100, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc plus-times is, 0.400, 1.000, 11.800, 0.000, 2228.400, 0.134, 0.000, 5.650
+Std plus-times is, 0.800, 0.000, 23.600, 0.000, 61.643, 0.015, 0.000, 0.523
+Acc min-plus is, 1511.600, 0.989, 764.200, 0.549, 3699.400, 0.912, 168.800, 11.642
+Std min-plus is, 39.540, 0.002, 99.620, 0.014, 53.155, 0.015, 39.656, 0.545
+Acc max-times is, 0.000, 1.000, 0.000, 0.000, 2228.800, 0.134, 0.000, 6.502
+Std max-times is, 0.000, 0.000, 0.000, 0.000, 61.444, 0.008, 0.000, 0.372
+Acc max-min is, 10.200, 0.995, 555.200, 0.000, 2218.600, 0.419, 0.000, 6.319
+Std max-min is, 10.515, 0.005, 606.986, 0.000, 56.804, 0.024, 0.000, 0.216
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['plus-times', 'min-plus', 'max-times', 'max-min'], eval_mode = closure, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [100], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.05, cor = plus, 
+samples = 5000, nodes = 100, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc plus-times is, 2.600, 0.999, 130.000, 0.000, 2287.600, 0.146, 0.000, 5.807
+Std plus-times is, 3.323, 0.001, 160.927, 0.000, 88.547, 0.014, 0.000, 0.178
+Acc min-plus is, 1497.600, 0.988, 987.600, 0.557, 3743.200, 0.918, 247.200, 11.041
+Std min-plus is, 90.143, 0.003, 201.341, 0.029, 90.371, 0.006, 89.410, 1.051
+Acc max-times is, 10.800, 0.995, 248.600, 0.000, 2279.400, 0.135, 0.000, 5.789
+Std max-times is, 17.871, 0.008, 345.889, 0.000, 99.176, 0.009, 0.000, 0.360
+Acc max-min is, 28.200, 0.988, 489.200, 0.001, 2266.800, 0.424, 0.000, 6.735
+Std max-min is, 38.732, 0.017, 624.311, 0.001, 111.095, 0.038, 0.000, 0.514

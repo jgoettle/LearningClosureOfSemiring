@@ -1,0 +1,25 @@
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['max-times'], eval_mode = closure-of-reduction, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 40, 60, 80, 100], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.1, cor = plus, 
+samples = 5000, nodes = 20, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc max-times is, 0.400, 0.997, 5.400, 0.000, 151.000, 0.109, 0.000, 1.995
+Std max-times is, 0.800, 0.005, 10.800, 0.000, 9.859, 0.028, 0.000, 0.304
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['max-times'], eval_mode = closure-of-reduction, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 40, 60, 80, 100], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.1, cor = plus, 
+samples = 5000, nodes = 40, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc max-times is, 2.400, 0.994, 42.800, 0.000, 465.200, 0.100, 0.000, 2.803
+Std max-times is, 3.007, 0.007, 52.799, 0.000, 39.286, 0.008, 0.000, 0.530
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['max-times'], eval_mode = closure-of-reduction, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 40, 60, 80, 100], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.1, cor = plus, 
+samples = 5000, nodes = 60, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc max-times is, 2.000, 0.998, 12.600, 0.000, 934.200, 0.112, 0.000, 4.197
+Std max-times is, 2.530, 0.003, 17.060, 0.000, 89.720, 0.008, 0.000, 1.083
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['max-times'], eval_mode = closure-of-reduction, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 40, 60, 80, 100], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.1, cor = plus, 
+samples = 5000, nodes = 80, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc max-times is, 0.000, 1.000, 0.000, 0.000, 1628.400, 0.124, 0.000, 5.156
+Std max-times is, 0.000, 0.000, 0.000, 0.000, 81.752, 0.007, 0.000, 0.621
+noise = gauss, noise_std = 0.01, noise_effect = both, sparsity = 0.1, omega = 0.09, semirings = ['max-times'], eval_mode = closure-of-reduction, hist = False, hist_bins = 140, hist_bound = [7, 7], weight_bounds = [0.1, 0.9], edges = 4, samples = [5000], nodes = [20, 40, 60, 80, 100], graph_type = ER, runs = 5, timeout = 1000, table = TPR, sparserc_epochs = 15000, legend = False, cor_val = 0.1, cor = plus, 
+samples = 5000, nodes = 100, noise = gauss
+Results, SHD, TPR, SID, FPR, NNZ, NMSE, E_RM, T 
+Acc max-times is, 9.400, 0.996, 209.600, 0.000, 2320.400, 0.128, 0.000, 8.821
+Std max-times is, 11.621, 0.005, 282.641, 0.000, 38.821, 0.012, 0.000, 1.469
