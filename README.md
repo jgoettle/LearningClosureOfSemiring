@@ -12,7 +12,7 @@ To use it you can simply install Python with the required packages in [`requirem
 In the thesis a new data generation process is introduced, which is derived from the linear SEM, where the transitive closure is computed over an (idempotent) semiring. 
 This changes the meaning of the overall influence between nodes to for example the shortest path or the maximal reliabilty. 
 
-These influences are then learned by using [SparceRC]https://github.com/FenTechSolutions/CausalDiscoveryToolbox) and computing the plus-times transitive closure of the infered matrix.
+These influences are then learned by using [SparceRC](https://github.com/FenTechSolutions/CausalDiscoveryToolbox) and computing the plus-times transitive closure of the infered matrix.
 
 Additionally it introduces the weighted transitive reduction, which is also learned by my method.
 
